@@ -84,8 +84,6 @@ class MSNPServer:
             
             # Add default users for testing
             conn.execute("INSERT OR IGNORE INTO users (email, password, display_name) VALUES (?, ?, ?)", 
-                        ('aquaboxs34@hotmail.com', 'password123', 'AquaBoxs'))
-            conn.execute("INSERT OR IGNORE INTO users (email, password, display_name) VALUES (?, ?, ?)", 
                         ('testuser@hotmail.com', 'test123', 'Test User'))
             
             conn.commit()

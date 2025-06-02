@@ -61,7 +61,6 @@ def setup_database():
     
     # Insert sample users (matching Wireshark captures)
     sample_users = [
-        ('aquaboxs34@hotmail.com', 'password123', 'AquaBoxs'),
         ('testuser@hotmail.com', 'test123', 'Test User'),
         ('friend1@hotmail.com', 'friend123', 'Friend One'),
         ('buddy@msn.com', 'buddy123', 'My Buddy'),
