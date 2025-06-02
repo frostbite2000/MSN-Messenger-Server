@@ -65,7 +65,6 @@ The database comes pre-populated with test users:
 
 | Email | Password | Display Name |
 |-------|----------|--------------|
-| aquaboxs34@hotmail.com | password123 | AquaBoxs |
 | testuser@hotmail.com | test123 | Test User |
 | friend1@hotmail.com | friend123 | Friend One |
 
